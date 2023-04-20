@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFA0AA;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+section {
+    margin-bottom: 10px;
+    color: #2C2A63;
+
+}
+
+.main-text,
+address {
+    line-height: 1.5;
+}
+
+.logo-container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #2C2A63;
+    border-radius: 50%;
+    margin: 20px auto 0px;
+}
+
+.icon {
+    font-size: 80px;
+}
+
+.profile-intro {
+    border-bottom: #2C2A63 solid 0px;
+    border-right: 0px solid #2C2A63;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.profile-intro>p {
+    font-size: 15px;
+}
+
+.main-heading {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.profile-address {
+    border-bottom: 2px solid #2C2A63;
+    padding: 10px;
+}
+
+@media (min-width: 768px) {
+    main {
+        padding: 50px 20px;
+    }
+
+    section {
+        margin-bottom: 30px;
+    }
+
+    .main-text,
+    address {
+        line-height: 1.7;
+        font-size: 16px;
+    }
+
+    .logo-container>div {
+        width: 120px;
+        height: 120px;
+        border: 2px solid #2C2A63;
+        margin-top: 30px;
+    }
+
+    .icon {
+        font-size: 70px;
+    }
+
+    .profile-intro {
+        border-bottom: #2C2A63 solid 3px;
+        border-right: 3px solid #2C2A63;
+        padding: 12px;
+        padding-left: 12px;
+    }
+
+    .main-heading {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+
+    .profile-intro>p {
+        font-size: 17px;
+    }
+
+    .profile-address {
+        border-bottom: 3px solid #2C2A63;
+        padding: 12px;
+    }
+
+}
+
+@media (min-width:992px) {
+    main {
+        padding: 50px 60px;
+    }
+
+    .icon {
+        font-size: 80px;
+    }
+
+    .main-heading {
+        font-size: 48px;
+        margin-top: 0px;
+    }
+
+    .logo-container>div {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+/* WORK SECTION */
+
+
+.table {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    color: #2C2A63;
+}
+
+.rows {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 10px;
+}
+
+/* SKILLS SECTION */
+
+/* .skill-section{
+    border-top: 2px solid #2C2A63;
+} */
+.skill-award-section {
+    border-top: 2px solid #2C2A63;
+    padding: 20px 5px;
+}
+
+.skill {
+    margin-top: 16px;
+}
+
+.skill,
+.awards {
+    margin-bottom: 16px;
+}
+
+.skill>div {
+    display: flex;
+    align-items: center;
+}
+
+.skill>div>p:nth-child(1) {
+    width: 50%;
+}
+
+.skill>div>p:nth-child(2) {
+    letter-spacing: 2;
+    color: #2C2A63;
+    font-size: 25px;
+}
+
+.logo-container {
+    margin-bottom: 16px;
+}
+
+@media(min-width:768px) {
+    .skill-award-section {
+        border-top: 0px solid #2C2A63;
+        /* padding: 20px; */
+    }
+
+    .skill,
+    .awards {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        border-top: 3px solid #2C2A63;
+        border-bottom: 3px solid #2C2A63;
+        margin-bottom: 0px;
+    }
+
+    .logo-container {
+        /* margin-bottom: 0; */
+    }
+
+    .skill {
+        margin-top: 0;
+        border-right: 3px solid #2C2A63;
+    }
+}
+
+/* INTEREST SECTION */
+.interests-section {
+    padding: 0;
+}
+
+.interests-container>.logo-container>div {
+    background-color: #2C2A63;
+    color: #FFA0AA;
+    margin-top: 0;
+}
+
+.interests-container {
+    border-bottom: 3px solid #2C2A63;
+    text-align: center;
+}
+
+@media(min-width:768px) {
+    .interest-section>.logo-container>div {
+        margin-top: 0;
+    }
+}
